@@ -8,6 +8,9 @@ s
         <div class="border-b  px-4 py-2">
             <!-- <span class="text-sm text-[#4f46e5] cursor-pointer pr-4">@下载模板</span> -->
             <!-- File Upload Componenet -->
+            <NuxtLink class="text-sm text-[#4f46e5] cursor-pointer pr-4"
+                    to="/template-child-name.xlsx"
+                    target="_blank">@下载模板</NuxtLink>
             <span class="text-sm text-[#4f46e5] cursor-pointer pr-4" @click="importLocalFile">@Excel导入</span>
             <input v-show="false"
                 ref="fileRef"
