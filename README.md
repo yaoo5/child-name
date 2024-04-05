@@ -1,75 +1,20 @@
-# Nuxt 3 Minimal Starter
+# Child Name
+Nuxt@3 + tailwindcss.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Background
+Web Application to help Name the baby.
 
-## Setup
-
-Make sure to install the dependencies:
-
+## Dev
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+## Build & Deploy
+```
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+pm2 start pm2.config.js
 ```
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Demo
+![Demo Image](image.png)
